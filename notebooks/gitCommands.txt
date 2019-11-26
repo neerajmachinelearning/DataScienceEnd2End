@@ -1,0 +1,6 @@
+Git Commands to be used
+1. git log --online  - this is to check the history 
+2. git status        - this is to check the what files we have added or changed since last commit
+3. git add .         - Add the newly added files in our git repository
+4. git commit        - Commit the changes
+
