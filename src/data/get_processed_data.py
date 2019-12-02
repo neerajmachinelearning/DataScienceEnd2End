@@ -96,7 +96,7 @@ def write_data(df):
     #training data
     df.loc[df.Survived != -888].to_csv(write_train_path)
     #test data
-    columns = [column for column in df.columns if column != 'Surived']
+    columns = [column for column in df.columns if column != 'Survived']
     df.loc[df.Survived == -888, columns].to_csv(write_test_path)
 
 if __name__ == '__main__':
