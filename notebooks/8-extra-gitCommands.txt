@@ -1,0 +1,19 @@
+Git Commands to be used
+1. git log --oneline  - this is to check the history 
+2. git status        - this is to check the what files we have added or changed since last commit
+3. git add .         - Add the newly added files in our git repository
+4. git commit        - Commit the changes
+
+5. git remote add origin https://github.com/neerajmachinelearning/DataScienceLearning.git  - to copy existing repository to the git hub
+6. git push -u origin master - It is to push the changes to the git hub master
+
+You are in Vim, so just Press Esc to get into command mode.
+
+Then if you want to save the message and commit type:
+:wq
+
+or if you want to abandon the commit type:
+:q!
+
+
+
