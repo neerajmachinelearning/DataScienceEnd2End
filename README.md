@@ -58,14 +58,9 @@ Project Organization
 
 ## Following are the reexecutable scripts information 
 
-     - src/data/get_processed_data.py : This is a single reexecutable program to process the raw data. 
-     - src/data/get_raw_data.py: This is the program to extract the data from kaggle website.
-     - src/models/machine_learning_api.py : This the Machine learning API I have written to run my model. This API takes data as input and gives the prediction back to the user. 
- 
-     -/models/lr_model.pkl - This the persistence model for logical regression created, so that we do not have to train our program everytime we call it. 
-     -/models/lr_scaler.pkl - This is persistence model for the scaler created so that we do not have to apply normalization and standardisation on training data everytime we call the program. 
- 
-     -/notebooks - It contains jupyter notebooks for all the analysis and learnings I did during this implementation. 
- 
-
-
+  - src/data/get_processed_data.py : This is a single reexecutable program to process the raw data. 
+  - src/data/get_raw_data.py: This is the program to extract the data from kaggle website.
+  - src/models/machine_learning_api.py : This the Machine learning API I have written to run my model. This API takes data as input and gives the prediction back to the user. 
+  - /models/lr_model.pkl - This the persistence model for logical regression created, so that we do not have to train our program everytime we call it. 
+  - /models/lr_scaler.pkl - This is persistence model for the scaler created so that we do not have to apply normalization and standardisation on training data everytime we call the program. 
+  - /notebooks - It contains jupyter notebooks for all the analysis and learnings I did during this implementation. 
